@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="d3ebf613368d6f558c927ee0ad36148d0db3065b">
+        sha1="44b3892a41849b570dba49a6e7a8b9679375b235">
         <dex dex="D:\GithubSample\CustomDialog\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_49d0c848aec37c66ef2ee2c524a65e466ef63fb2\classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="4e0cf1d31c1ffaf9eba3eb2aac2a5cf3fcb0b792">
+        sha1="b0c46a0cfa3dd296b75e171bd753890f65517c44">
         <dex dex="D:\GithubSample\CustomDialog\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eb2a322d727bc95ee952f449a230c8baedb5b290\classes.dex" />
     </item>
     <item
