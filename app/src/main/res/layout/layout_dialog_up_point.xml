@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ln_group_info"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:background="@mipmap/left_1">
+
+            <ImageView
+                android:id="@+id/img_dialog_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@mipmap/bg_1">
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_dialog"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:contentDescription=""
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icon"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/img_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:src="@mipmap/star_1"
+        android:visibility="gone" />
+
+</RelativeLayout>
